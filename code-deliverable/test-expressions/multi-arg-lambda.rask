@@ -1,0 +1,2 @@
+#lang racket
+((lambda (x y z) (cons z (cons y (cons x '())))) 'a 'b 'c)
